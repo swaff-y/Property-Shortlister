@@ -1,0 +1,131 @@
+  [1m[35m (376.8ms)[0m  [1m[35mCREATE DATABASE "prop-listing-rails-react-api_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (179.7ms)[0m  [1m[35mCREATE DATABASE "prop-listing-rails-react-api_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+Started GET "/" for ::1 at 2020-12-23 13:14:37 +1100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kyleswaffield/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kyleswaffield/.rvm/gems/ruby-2.7.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (5.1ms)
+Completed 200 OK in 22ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-23 13:18:16 +1100
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 2637ms (Views: 2635.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-23 13:26:09 +1100
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (1.2ms)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/kyleswaffield/sei/projects/prop-listing-rails-react-api/public/packs
+[Webpacker] Hash: 7dec09836b1121814900
+Version: webpack 4.44.2
+Time: 6819ms
+Built at: 12/23/2020 1:26:22 PM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-dff99dfe9412d392e3c7.js    1.1 MiB        Index  [emitted] [immutable]  Index
+      js/Index-dff99dfe9412d392e3c7.js.map   1.27 MiB        Index  [emitted] [dev]        Index
+    js/application-2181adcc3224cdc0c9c1.js   4.72 KiB  application  [emitted] [immutable]  application
+js/application-2181adcc3224cdc0c9c1.js.map    4.5 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-2181adcc3224cdc0c9c1.js js/application-2181adcc3224cdc0c9c1.js.map
+Entrypoint Index = js/Index-dff99dfe9412d392e3c7.js js/Index-dff99dfe9412d392e3c7.js.map
+[./app/javascript/packs/Index.jsx] 1.09 KiB {Index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+    + 15 hidden modules
+
+Completed 200 OK in 13273ms (Views: 13270.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-23 13:27:07 +1100
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (0.7ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-23 17:30:03 +1100
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (1.3ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2810ms (Views: 2807.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-23 17:39:29 +1100
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (2.8ms)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/kyleswaffield/sei/projects/prop-listing-rails-react-api/public/packs
+[Webpacker] Hash: e5b4733d7a9b2c41e5a5
+Version: webpack 4.44.2
+Time: 12167ms
+Built at: 12/23/2020 5:39:45 PM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-38eab4077f64ad91de2c.js   2.62 MiB        Index  [emitted] [immutable]  Index
+      js/Index-38eab4077f64ad91de2c.js.map   2.89 MiB        Index  [emitted] [dev]        Index
+    js/application-2181adcc3224cdc0c9c1.js   4.72 KiB  application  [emitted] [immutable]  application
+js/application-2181adcc3224cdc0c9c1.js.map    4.5 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-2181adcc3224cdc0c9c1.js js/application-2181adcc3224cdc0c9c1.js.map
+Entrypoint Index = js/Index-38eab4077f64ad91de2c.js js/Index-38eab4077f64ad91de2c.js.map
+[./app/javascript/packs/Index.jsx] 680 bytes {Index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 762 bytes {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {Index} [built]
+    + 38 hidden modules
+
+Completed 200 OK in 16543ms (Views: 16539.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-23 17:40:34 +1100
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (0.9ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-23 17:58:52 +1100
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (0.4ms)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/kyleswaffield/sei/projects/prop-listing-rails-react-api/public/packs
+[Webpacker] Hash: e5b4733d7a9b2c41e5a5
+Version: webpack 4.44.2
+Time: 6237ms
+Built at: 12/23/2020 5:59:03 PM
+                                     Asset       Size       Chunks                         Chunk Names
+          js/Index-38eab4077f64ad91de2c.js   2.62 MiB        Index  [emitted] [immutable]  Index
+      js/Index-38eab4077f64ad91de2c.js.map   2.89 MiB        Index  [emitted] [dev]        Index
+    js/application-2181adcc3224cdc0c9c1.js   4.72 KiB  application  [emitted] [immutable]  application
+js/application-2181adcc3224cdc0c9c1.js.map    4.5 KiB  application  [emitted] [dev]        application
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-2181adcc3224cdc0c9c1.js js/application-2181adcc3224cdc0c9c1.js.map
+Entrypoint Index = js/Index-38eab4077f64ad91de2c.js js/Index-38eab4077f64ad91de2c.js.map
+[./app/javascript/packs/Index.jsx] 680 bytes {Index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/routes/Index.jsx] 762 bytes {Index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {Index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {Index} [built]
+    + 38 hidden modules
+
+Completed 200 OK in 11133ms (Views: 11132.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-23 17:59:12 +1100
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (2.1ms)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 82ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
